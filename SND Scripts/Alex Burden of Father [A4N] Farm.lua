@@ -179,7 +179,7 @@ if ManualSetDuty == true then
     DutyCounter = 1
 end
 
-if NumberofLoops == 0 then 
+if NumberofLoops == 0 and InfiniteLoops == false then 
     InfiniteLoops = true 
     yield("/e Hmm... you didn't set it to infinite, but you also set it as 0, so I'm going to safely assume you meant to put it as infinite. Fixed that for you")
 end
